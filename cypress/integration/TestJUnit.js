@@ -1,3 +1,4 @@
+/// <reference types="cypress" />
 import credentialsJunit from '../page/credentialsJunit';
 import AdminPage from '../page/AdminPage';
 import ExecutionsPage from '../page/ExecutionsPage';
@@ -9,7 +10,8 @@ import SchedulerPage from '../page/SchedulerPage';
 
 
 
-describe('login to Step and checj header menu', async () => {
+
+describe('login to Step and check header menu', async () => {
 
     beforeEach('login to Step', async () => {
         await cy.visit(MainPage.baseURL);
