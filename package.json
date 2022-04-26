@@ -9,6 +9,7 @@
   "author": "DB",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.5.4"
+    "cypress": "^9.5.4",
+    "cypress-wait-until": "^1.7.2"
   }
 }

@@ -1,0 +1,6 @@
+.gitignore.txt
+.history
+node_modules
+cypress\downloads
+cypress\examples
+cypress\videos
